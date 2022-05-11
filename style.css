@@ -1,0 +1,107 @@
+body {
+  background-color: #cca170;
+}
+
+#container {
+  width: 700px;
+  margin: 40px auto;
+  align-items: center;
+}
+
+.card {
+ background-color: #F1D6B8;
+ box-shadow: 0px 10px 30px;
+ border-radius: 10px;
+ font-size: 20px;
+}
+
+.icon-card {
+  background-color: #F1D6B8;
+  box-shadow: 0px 10px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin: 16px 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: bold;
+  color: rgb(156, 118, 72);
+}
+
+#img_style {
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+
+ul {
+  text-align: center;
+  font-size: 46px;
+  list-style: none;
+  width: 100%;
+}
+
+#icons li{
+  display: inline;
+  padding: 50px;
+}
+
+.socials {
+  text-decoration: none;
+  color: rgb(255, 247, 238);
+
+}
+
+.socials:hover {
+  color: rgb(156, 118, 72);
+}
+
+.vid-card {
+  background-color: #F1D6B8;
+  box-shadow: 0px 10px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  margin: 16px 0;
+  width: 100%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
